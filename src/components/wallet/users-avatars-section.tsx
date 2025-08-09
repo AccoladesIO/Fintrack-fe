@@ -1,29 +1,7 @@
 import { UserAvatar } from '@/components/ui/user-avatar';
-
-interface User {
-    name: string;
-}
-
-const allActiveUsers: User[] = [
-    { name: 'Ava' },
-    { name: 'Liam' },
-    { name: 'Noah' },
-    { name: 'Sophia' },
-    { name: 'Olivia' },
-    { name: 'Mason' },
-    { name: 'Lucas' },
-    { name: 'Emma' },
-    { name: 'James' },
-    { name: 'Isabella' },
-    { name: 'Ethan' },
-    { name: 'Mia' },
-    { name: 'Charlotte' },
-    { name: 'Amelia' },
-    { name: 'Benjamin' },
-];
+import { allActiveUsers } from '@/lib/sample-data';
 
 export function UserAvatarsSection() {
-    // First 3 get avatars
     const topThree = allActiveUsers.slice(0, 3);
     const remainingCount = allActiveUsers.length > 3 ? allActiveUsers.length - 3 : 0;
 

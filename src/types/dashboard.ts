@@ -20,3 +20,8 @@ export interface DashboardSummary {
 
 export type SortField = 'date' | 'remark' | 'amount' | 'currency' | 'type';
 export type SortDirection = 'asc' | 'desc';
+
+
+export interface User {
+  name: string;
+}

@@ -1,4 +1,4 @@
-import { Transaction, DashboardSummary } from '@/types/dashboard';
+import { Transaction, DashboardSummary, User } from '@/types/dashboard';
 
 export const sampleTransactions: Transaction[] = [
     {
@@ -85,3 +85,23 @@ export const dashboardSummary: DashboardSummary = {
     debitsChange: -2,
     transactionChange: 10
 };
+
+
+
+export const allActiveUsers: User[] = [
+    { name: 'Ava' },
+    { name: 'Liam' },
+    { name: 'Noah' },
+    { name: 'Sophia' },
+    { name: 'Olivia' },
+    { name: 'Mason' },
+    { name: 'Lucas' },
+    { name: 'Emma' },
+    { name: 'James' },
+    { name: 'Isabella' },
+    { name: 'Ethan' },
+    { name: 'Mia' },
+    { name: 'Charlotte' },
+    { name: 'Amelia' },
+    { name: 'Benjamin' },
+];
